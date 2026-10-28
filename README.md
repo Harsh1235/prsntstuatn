@@ -1,24 +1,22 @@
-# PRSNTSTUATN — Shopify theme 1.2
+# PRSNTSTUATN — Shopify theme 1.3
 
-[Download theme v1.2](./PRSNTSTUATN-theme-v1.2.zip). On the file page, click **Download raw file** (↓).
+[Download the Averia theme update](./PRSNTSTUATN-theme-v1.3.zip). On the ZIP page, click **Download raw file** (↓).
 
-## New: theme-editor customization
+## Custom font: headings and subheadings only
 
-- **Theme settings → Typography:** native Shopify heading and body font pickers, plus text size scales.
-- **Select any section → Section colors:** enable **Use custom section colors** for independent background, surface, heading, body, secondary text, links and buttons.
-- **Section typography:** enable **Use custom section fonts** for independent fonts, or inherit the global fonts. Enable **Use custom text sizes** for separate desktop/mobile heading/body sizes and eyebrow size.
-- **Section spacing:** enable **Use custom section spacing** for margins and padding.
-- **Layout** on editorial sections: alignment and content width. The hero also has desktop/mobile image-shape controls.
-- **Header details:** logo widths and announcement colors. **Footer:** newsletter copy.
+Your Averia files are included as optimized WOFF2 assets:
 
-[Read the full installation and customization guide](./SETUP.md).
+- Headings: **Averia Regular** by default.
+- Subheadings: **Averia Light** by default.
+- **Averia Bold** is available for either role.
+- Paragraphs, navigation, buttons and forms keep their existing body font.
 
-Upload as a **new unpublished theme** in Shopify → Online Store → Themes → Add theme → Upload zip file. Keep your existing draft as a backup. Settings/content edited in an older theme are **not automatically copied** to a new theme upload; reapply your existing edits in the new draft.
+In **Theme settings → Typography**, select **Heading font source → Averia — uploaded font**, then choose heading and subheading weights. The default is already Averia. For a section override, enable **Use custom section fonts** and select Averia there. No manual font upload or app is required.
 
-The bag drawer, logo, image-led mega menu, page templates, social icons and animations from v1.1 are retained. Store page creation, account authentication, real legal terms and social URLs still need your store settings.
+[Full installation and customization guide](./SETUP.md)
 
-Shopify Theme Check passed with zero offenses. All 75 storefront/browser checks and 32 dedicated customization checks passed locally. Live Shopify editor access and Shopify-hosted font downloads were not tested here. No live theme was changed or published.
+Upload the ZIP as a **new unpublished theme** and keep your existing draft as a backup. Shopify does not automatically migrate edits/settings between theme uploads. All v1.2 typography, color and spacing controls and the v1.1 side bag/menu/page improvements remain included.
 
-## Preview
+Validation: Shopify Theme Check passed; 75 storefront checks, 32 customization checks and 22 actual-font loading/selection checks passed locally. The original font license and copyright are preserved. No live store was changed or published.
 
-[Desktop](./previews/PRSNTSTUATN-desktop.png) · [Mobile](./previews/PRSNTSTUATN-mobile.png) · [Side bag](./previews/PRSNTSTUATN-bag-drawer.png) · [Mega menu](./previews/PRSNTSTUATN-mega-menu.png)
+[Desktop](./previews/PRSNTSTUATN-desktop.png) · [Mobile](./previews/PRSNTSTUATN-mobile.png) · [Bag drawer](./previews/PRSNTSTUATN-bag-drawer.png) · [Mega menu](./previews/PRSNTSTUATN-mega-menu.png)

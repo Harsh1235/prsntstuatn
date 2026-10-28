@@ -1,8 +1,25 @@
-# PRSNTSTUATN — theme 1.2
+# PRSNTSTUATN — theme 1.3
 
 An original Shopify Online Store 2.0 theme for an object-led gift house. The design uses a blonde background (`#F3EDDE`), khaki details (`#8B8F72`) and russet (`#874016`), generous space, serif editorial headings and restrained navigation.
 
 **Every relationship has a present situation.** Present as a gift; present as a moment in time.
+
+## Averia custom headings — version 1.3
+
+The three supplied Averia font files are bundled as optimized WOFF2 assets. There is no separate font upload, app, or external font service required for Averia.
+
+- Headings use **Averia Regular** by default.
+- Subheadings (h3–h6 and eyebrow labels) use **Averia Light** by default.
+- **Averia Bold** is available for either role.
+- Paragraphs, navigation, buttons and form fields keep the existing body font. Averia is not offered as a body-font choice.
+
+In **Theme settings → Typography**, choose **Heading font source → Averia — uploaded font**, then set **Averia heading weight** and **Averia subheading weight** independently. Choose **Shopify font library** instead to use the original Shopify heading picker.
+
+For independent section fonts, select the section, enable **Use custom section fonts**, choose **Heading font source → Averia — uploaded font**, and set its weights. Leave the section override off to inherit the global choice. The Body font picker remains separate.
+
+The original SIL Open Font License and copyright are included in `assets/averia-license.txt` and in the font metadata. Conversion preserves the character map and every glyph outline. CSS weights 300/400/700 select the supplied Light/Regular/Bold files respectively; the original internal metadata is retained. No italic file was supplied.
+
+Validation includes the existing 75 storefront checks and 32 customization checks, plus 22 Averia checks that load and decode the actual bundled fonts in Chromium, select all weights and verify that paragraph/navigation/form fonts stay separate. Shopify Theme Check also passes. Live store configuration remains unchanged.
 
 ## Customize typography and section design — version 1.2
 
