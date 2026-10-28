@@ -1,26 +1,24 @@
-# PRSNTSTUATN — Shopify theme 1.1
+# PRSNTSTUATN — Shopify theme 1.2
 
-[Download the updated Shopify theme ZIP](./PRSNTSTUATN-theme.zip). On the file page, click **Download raw file** (↓).
+[Download theme v1.2](./PRSNTSTUATN-theme-v1.2.zip). On the file page, click **Download raw file** (↓).
 
-## What changed
+## New: theme-editor customization
 
-- Sliding side bag with quantity updates, item removal and keyboard focus containment.
-- Logo prepared from the supplied artwork: russet in the header and blonde in the deep khaki footer.
-- Home, Products, About us, Contact us, Why us and secure Shopify account links.
-- Editable FAQs, terms link, and configurable Instagram/Pinterest/Facebook icons.
-- Image-led mega menu and gentle motion that respects reduced-motion preferences.
+- **Theme settings → Typography:** native Shopify heading and body font pickers, plus text size scales.
+- **Select any section → Section colors:** enable **Use custom section colors** for independent background, surface, heading, body, secondary text, links and buttons.
+- **Section typography:** enable **Use custom section fonts** for independent fonts, or inherit the global fonts. Enable **Use custom text sizes** for separate desktop/mobile heading/body sizes and eyebrow size.
+- **Section spacing:** enable **Use custom section spacing** for margins and padding.
+- **Layout** on editorial sections: alignment and content width. The hero also has desktop/mobile image-shape controls.
+- **Header details:** logo widths and announcement colors. **Footer:** newsletter copy.
 
-## Preview the design
+[Read the full installation and customization guide](./SETUP.md).
 
-- [Desktop](./previews/PRSNTSTUATN-desktop.png)
-- [Mobile](./previews/PRSNTSTUATN-mobile.png)
-- [Side bag](./previews/PRSNTSTUATN-bag-drawer.png)
-- [Mega menu](./previews/PRSNTSTUATN-mega-menu.png)
+Upload as a **new unpublished theme** in Shopify → Online Store → Themes → Add theme → Upload zip file. Keep your existing draft as a backup. Settings/content edited in an older theme are **not automatically copied** to a new theme upload; reapply your existing edits in the new draft.
 
-## Install
+The bag drawer, logo, image-led mega menu, page templates, social icons and animations from v1.1 are retained. Store page creation, account authentication, real legal terms and social URLs still need your store settings.
 
-Upload the ZIP in Shopify → Online Store → Themes → Add theme → Upload zip file. Review it as an **unpublished theme** first.
+Shopify Theme Check passed with zero offenses. All 75 storefront/browser checks and 32 dedicated customization checks passed locally. Live Shopify editor access and Shopify-hosted font downloads were not tested here. No live theme was changed or published.
 
-[Read the setup guide](./SETUP.md) for the page handles and template assignments, social links and customer account configuration. Creating store pages, adding real terms and enabling email/Google account authentication require Shopify admin access. The theme does not create pages or enable authentication on its own. Real checkout, contact delivery, sign-in and newsletter delivery have not been tested here.
+## Preview
 
-Shopify Theme Check passed with no offenses; all 75 local browser checks passed against sample data. No live Shopify theme was changed or published.
+[Desktop](./previews/PRSNTSTUATN-desktop.png) · [Mobile](./previews/PRSNTSTUATN-mobile.png) · [Side bag](./previews/PRSNTSTUATN-bag-drawer.png) · [Mega menu](./previews/PRSNTSTUATN-mega-menu.png)

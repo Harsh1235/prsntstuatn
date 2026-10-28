@@ -1,8 +1,27 @@
-# PRSNTSTUATN — theme 1.1
+# PRSNTSTUATN — theme 1.2
 
 An original Shopify Online Store 2.0 theme for an object-led gift house. The design uses a blonde background (`#F3EDDE`), khaki details (`#8B8F72`) and russet (`#874016`), generous space, serif editorial headings and restrained navigation.
 
 **Every relationship has a present situation.** Present as a gift; present as a moment in time.
+
+## Customize typography and section design — version 1.2
+
+The theme now exposes design controls in Shopify's theme editor; custom CSS is not required for these changes.
+
+- **Theme settings → Typography:** choose heading and body fonts from Shopify's native font pickers, plus global heading/body size scales.
+- **Theme settings → Brand & colors:** global background, body text, heading, secondary text, accent and button colors.
+- **Select any section → Section colors:** turn on **Use custom section colors**, then choose independent background, secondary surface, headings, body copy, secondary copy, links/accents and button/label colors.
+- **Select any section → Section typography:** turn on **Use custom section fonts** for independent heading/body font pickers. Leave it off to inherit global fonts. Turn on **Use custom text sizes** for heading/body desktop and mobile sizes, eyebrow size and heading letter spacing.
+- **Select any section → Section spacing:** turn on **Use custom section spacing** for space above/below and inner padding.
+- **Editorial sections → Layout:** turn on **Use custom layout** for alignment and maximum content width. The hero also has independent desktop/mobile image-shape selectors.
+- **Header → Header details:** desktop/mobile logo widths and announcement colors.
+- **Footer → Newsletter copy:** editable eyebrow, heading and description.
+
+The section override switches default to off to retain the original section palettes and layout. A color/size/font field takes effect when its matching override switch is enabled. Use the desktop/mobile preview buttons to check both layouts. Any palette you choose still needs sufficient text contrast.
+
+Upload the new ZIP as an **unpublished theme** and keep your existing draft as a backup. Shopify does not automatically migrate theme-editor content/settings from an older ZIP into a newly uploaded theme; reapply your existing customizations to the new draft. Publish only after review. This package does not change your existing store or current theme.
+
+Validation: Shopify Theme Check, 75 storefront/browser checks and 32 dedicated customization checks. Customization tests exercise the same Liquid/CSS settings with local Shopify-font-object fixtures; Shopify hosts the actual font assets in the real store. The live Shopify editor has not been accessed from this environment.
 
 ## Review and install in Shopify
 
